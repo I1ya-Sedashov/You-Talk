@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    position: relative;
+}
+.container {
+    color: black;
+    display: flex;
+    background-color: white;
+    margin: 0 auto;
+    top: 50px;
+    padding: 0 auto;
+    
+}
+select {
+    border: 0px white;
+    background-color: white;
+    outline: none;
+    border-radius: 6px;
+}
+ul {
+    text-align: center;
+    top: 20px;
+}
+ul li {
+    font-family: 'Montserrat' , sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 114%;
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 40px;
+}
+#select_material {
+    transition: 0.4s;
+    margin-right: 40px;
+}
+#select_material:hover {
+    transition: 0.4s;
+    cursor: pointer;
+    color:  #03B2A5;
+}
+a {
+    transition: 0.4s;
+    color: #333333;
+    text-decoration: none;
+}
+.href1:hover {
+    transition: 0.4s;
+    color:#03B2A5 ;
+}
+.href2:hover {
+    transition: 0.4s;
+    color: #03B2A5;
+}
+.href3:hover {
+    transition: 0.4s;
+    color: #03B2A5;
+}
+.href4:hover {
+    transition: 0.4s;
+    color: #03B2A5;
+}
+.href5:hover {
+    transition: 0.4s;
+    color: #03B2A5;
+}
+.href6:hover {
+    transition: 0.4s;
+    color: #03B2A5;
+}
+.line_header {
+    width: 100%;
+    height: 1px;
+    border:  1px solid #EFF5FB;
+    position: relative;
+    top: -8px;
+}
+header {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.logo_youtalk {
+    right: 50px;
+    top: 10px;
+    position: relative;
+    float:left;
+}
+.button_psycho {
+    transition: 0.4s;
+    color: #03B2A5;
+    background: #E3F5F5;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 14px 20px;
+    border: none;
+    position:relative;
+    margin-left:  auto;
+}
+.but {
+    justify-content: flex-end;
+    display: flex;
+    text-align: right;
+    top: -30px;
+
+}
+.button_psycho:hover {
+    transition: 0.4s;
+    background-color:#003834;
+    cursor: pointer;
+}
+.main_content {
+    position: relative;
+    display: flex;
+}
+.blog_div {
+    position: relative;
+    display: flex;
+
+    
+}
+.blog_main{
+    color: #333333;
+    font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+
+}
+.nav_buttons {
+    align-items: center;
+    position: relative;
+    align-content: center;
+    text-align: center;
+    top: 70px;
+}
+button {
+    transition: 0.4s;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 20px;
+    font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        border-width: 1px;
+        border-color:  #3333337c;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: #333333;
+}
+.img_buttons1 {
+    padding-top: -3px;
+    margin-right: 3px;
+    top: 3px;
+    position: relative;
+}
+.img_button3 {
+    top: 3px;
+    right: 3px;
+}
+.self_button3 {
+    border: 2px solid #16C8BB;
+}
+button:hover {
+    cursor: pointer;
+}
+.all_buttons1:hover {
+    transition: 0.4s;
+    border: 1px solid #16C8BB
+}
+.button2:hover {
+    transition: 0.4s;
+    border: 1px solid #16C8BB
+}
+.button4:hover {
+    transition: 0.4s;
+    border: 1px solid #16C8BB
+}
+.button5:hover {
+    transition: 0.4s;
+    border: 1px solid #16C8BB
+}
+.button6:hover {
+    transition: 0.4s;
+    border: 1px solid #16C8BB
+}
+.button7:hover {
+    transition: 0.4s;
+    border: 1px solid #16C8BB
+}
+.button8:hover {
+    transition: 0.4s;
+    border: 1px solid #16C8BB
+}
+.button9:hover {
+    transition: 0.4s;
+    border: 1px solid #16C8BB
+}
+.text_eggs {
+    height: 260px;
+    width: 588px;
+    top: -67px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+        border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+    position: relative;
+}
+.eggs {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    z-index: 10;
+}
+.eggs_fire {
+    position: relative;
+    top: 200px;
+
+}
+.blocks_psycho {
+    justify-content: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: 1800px;
+}
+.pony_esteem {
+    position: relative;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 6px 8px;
+                gap: 4px;
+                z-index: 12;
+                top: -250px;
+                left: 10px;
+                width: 261px;
+                    height: 32px;
+                    background: rgba(255, 255, 255, 0.7);
+                        border: 1px solid #C1C5CD;
+                        border-radius: 24px;
+}
+.ponyEst {
+    position: relative;
+    right: 113px;
+    top: -2px;
+}
+.text_esteem {
+    top: -37px;
+    left: 10px;
+    font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        align-items: center;
+            color: #333333;
+}
+.self_pony {
+        position: relative;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 6px 8px;
+            gap: 4px;
+            z-index: 12;
+            top: -240px;
+            left: 10px;
+            width: 67px;
+                height: 32px;
+            background: rgba(255, 255, 255, 0.7);
+            border: 1px solid #C1C5CD;
+            border-radius: 24px;
+}
+.ponySelf {
+    right: 18px;
+}
+.self_text {
+    font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333333;
+        position: relative;
+        top: -36.5px;
+        left: 7px;
+}
+.text_emo {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        position: relative;
+        color: #333333;
+        left: -40px;
+}
+.span_emo {
+    left:-40px
+}
+.author {
+    font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #494949;
+        left: -210px;
+        top: -10px;
+}
+.termin {
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333333;
+        left: -30px;
+        top: -15px;
+}
+.termin_span {
+    left: -200px;
+}
+.eggs_date {
+    font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #868686;
+        bottom: -55px;
+        left: -240px;
+}
+.text_fear {
+    position: relative;
+        height: 260px;
+            width: 588px;
+            top: -67px;
+            background: #FFFFFF;
+            border: 1px solid #DEDEDE;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            position: relative;
+}
+.image_fear {
+    position: relative;
+    height: 460px;
+        width: 588px;
+        border-top-left-radius: 20px;
+            border-top-right-radius: 40px;
+}
+.manage_fear {
+    align-items: right;
+   align-content: right;
+   align-self: right;
+    position: relative;
+    justify-content: right;
+    left: 100px;
+    top: 166px;
+}
+.fear {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        color: #333333;
+        left: -17px;
+}
+.author_fear {
+    font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        top: -10px;
+        line-height: 18px;
+        left: -182px;
+        position: relative;
+        color: #494949;
+}
+.one_fear {
+    left: -5px;
+    top: -15px;
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333333;
+}
+.one {
+    left: -40px;
+}
+.psycho_one {
+    top: -3px;
+}
+.date_fear {
+    font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #868686;
+        top: 85px;
+        left: -240px;
+}
